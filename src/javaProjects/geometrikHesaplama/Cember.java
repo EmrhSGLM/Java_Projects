@@ -16,9 +16,6 @@ public class Cember extends Sekil {
 	}
 	
 	public void cevresi() {
-		Scanner scan = new Scanner ( System.in);
-		System.out.println("Yaricapi giriniz : ");
-		cemberYaricapi = scan.nextDouble();
 		System.out.println("Cevresi = "+2 * 3.14*(cemberYaricapi));
 	}
 

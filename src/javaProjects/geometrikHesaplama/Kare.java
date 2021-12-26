@@ -15,11 +15,7 @@ public class Kare extends Diktortgen{
 		
 	}
 	
-	public void cevresi() {
-		Scanner scan = new Scanner ( System.in);
-		System.out.println("Kenar uzunlugunu  giriniz : ");
-		kareKenar = scan.nextDouble();
-		
+	public void cevresi() {		
 		System.out.println("Cevresi = "+2 * (kareKenar+kareKenar));
 	}
 

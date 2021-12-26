@@ -11,17 +11,14 @@ public class Diktortgen extends Sekil{
 	
 	public void alan() {
 		Scanner scan = new Scanner ( System.in);
-		System.out.println("kis ve uzun kenari  giriniz : ");
+		System.out.println("Uzun kenari  giriniz : ");
 		uzunKenar = scan.nextDouble();
+		System.out.println("Kisa kenari giriniz : ");
 		kisaKenar = scan.nextDouble();
 		System.out.println("Alan = "+(kisaKenar * uzunKenar));
 	}
 	
-	public void cevresi() {
-		Scanner scan = new Scanner ( System.in);
-		System.out.println("kis ve uzun kenari  giriniz : ");
-		uzunKenar = scan.nextDouble();
-		kisaKenar = scan.nextDouble();
+	public void cevresi() {		
 		System.out.println("Cevresi = "+2 * (kisaKenar+uzunKenar));
 	}
 

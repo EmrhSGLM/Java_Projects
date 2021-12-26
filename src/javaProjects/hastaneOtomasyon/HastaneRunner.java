@@ -6,27 +6,23 @@ public class HastaneRunner {
 
 	private static Hastane hastane1 = new Hastane();	
 
-	public static void main(String[] args) {
-		String hastaDurumu = "";
-		String unvan = "";
+	public static void main(String[] args) {		
 		
 		Scanner scan = new Scanner(System.in);
 		System.out.println("Sikayetinizi giriniz : ");
-		String sikayet = scan.nextLine();
-
-		hastane1.setDoktor(doktorBul(sikayet));
-		hastane1.setHasta(hastaBul(sikayet));
-		hastaDurumuBul(sikayet);
+		String aktuelDurum = scan.nextLine();
 		
+		hastane1.setDoktor(doktorBul(aktuelDurum));
+		hastane1.setHasta(hastaBul(aktuelDurum));
+		hastaDurumuBul(aktuelDurum); 		
 		
-
 		System.out.println("Doktor ismi : " + hastane1.doktor.getIsim());
 		System.out.println("Doktor Soyismi : " + hastane1.doktor.getSoyisim());
 		System.out.println("Doktor Unvani : " + hastane1.doktor.getUnvan());
-		System.out.println("Hasta Adi : " + hastane1.hasta.getIsim());
-		System.out.println("Hasta Adi : " + hastane1.hasta.getSoyIsim());
-		System.out.println("ID : " + hastane1.hasta.getHastaID());
-		System.out.println("Hasta Durumu : " + hastane1.hasta.durum.isAciliyet());
+		System.out.println("Hasta Ismi : " + hastane1.hasta.getIsim());
+		System.out.println("Hasta Soyismi : " + hastane1.hasta.getSoyIsim());
+		System.out.println("Hasta ID : " + hastane1.hasta.getHastaID());
+		scan.close();
 
 	}
 
@@ -81,7 +77,7 @@ public class HastaneRunner {
 			hastane1.hasta.durum.setAciliyet(false);
 			break;
 		case "Migren":
-			hastane1.hasta.durum.setAciliyet(true);
+			hastane1.hasta.durum.setAciliyet(true);			
 			break;
 		case "Kalp hastaliklari":
 			hastane1.hasta.durum.setAciliyet(true);

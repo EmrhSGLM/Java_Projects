@@ -13,8 +13,7 @@
                        String vites; (manuel otomatik)
                        double gunlukUcret; ( 100 120 150... liste dısı arac=300)
 
-2-		musteriden  yukarida ozellikleri verilen liste araclardan  tercihini alınız.
-   eger musteri farklı bir arac talep ederse
-   talep ettigi aracın fields'larını alınız.
+2-		Musteriden  yukarida ozellikleri verilen liste araclardan  tercihini alınız.
+   eger musteri farklı bir arac talep ederse  talep ettigi aracın fields'larını alınız.
    musterinin ad, soyad, yas, telefon, id  ve kredi kartı bilgileri ile   
-   arac tercihine ve islemine gore odemesini gerçekleştriniz..
+   arac tercihine ve islemine gore odemesini gerçekleştiriniz..

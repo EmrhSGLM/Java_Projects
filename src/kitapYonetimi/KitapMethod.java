@@ -1,4 +1,4 @@
-package javaProjects.kitapYonetimi;
+package kitapYonetimi;
 
 import java.util.List;
 import java.util.Scanner;

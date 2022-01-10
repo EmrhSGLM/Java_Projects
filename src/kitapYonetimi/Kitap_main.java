@@ -1,4 +1,4 @@
-package javaProjects.kitapYonetimi;
+package kitapYonetimi;
 
 import java.util.ArrayList;
 import java.util.List;

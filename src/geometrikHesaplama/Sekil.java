@@ -1,4 +1,4 @@
-package javaProjects.geometrikHesaplama;
+package geometrikHesaplama;
 
 public class Sekil {
 	

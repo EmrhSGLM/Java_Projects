@@ -1,4 +1,4 @@
-package javaProjects.OgrenciIsleri;
+package OgrenciIsleri;
 
 public class Runner123 extends Ogrenci123{
 

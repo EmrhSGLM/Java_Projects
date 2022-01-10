@@ -1,4 +1,4 @@
-package javaProjects.hastaneOtomasyon;
+package hastaneOtomasyon;
 
 import java.util.Scanner;
 

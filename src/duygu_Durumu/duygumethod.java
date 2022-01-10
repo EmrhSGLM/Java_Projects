@@ -20,6 +20,7 @@ public class duygumethod extends Duygularim {
 
 	public static void main(String[] args) {
 		
+		
 		secim();
 		toInteger();
 		gunce();
@@ -124,7 +125,8 @@ public class duygumethod extends Duygularim {
 		System.out.println("bugun  hissettigin yetersiz duygumun seviyesi");
 		int yetderece=scan.nextInt();
 		obj.duyguPuan.add(yetderece);
-		Duygularim ben=new Duygularim(mutderece,korkderece,kisderece,huzunderece,utanderece,ofkederece,gurderece,heyderece,tikderece,darderece,yetderece);
+		Duygularim ben=new Duygularim(mutderece,korkderece,kisderece,huzunderece,utanderece,
+				ofkederece,gurderece,heyderece,tikderece,darderece,yetderece);
 		duygu.add(ben);
 		
 		System.out.println(duygu);	 

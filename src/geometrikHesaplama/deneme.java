@@ -1,4 +1,4 @@
-package javaProjects.geometrikHesaplama;
+package geometrikHesaplama;
 
 import java.util.Arrays;
 

@@ -1,4 +1,4 @@
-package javaProjects.galeriOtomasyon;
+package galeriOtomasyon;
 
 public class BasicHonda extends Araba implements DisAraba, IcAraba {
 

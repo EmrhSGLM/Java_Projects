@@ -1,4 +1,4 @@
-package javaProjects.okulYonetimi;
+package okulYonetimi;
 
 /*
 	BİR OKUL YÖNETİM PLATFORMU KODALYINIZ.

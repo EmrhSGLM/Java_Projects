@@ -1,4 +1,4 @@
-package javaProjects.OgrenciIsleri;
+package OgrenciIsleri;
 
 public class Ogrenci extends Kisi {
 	

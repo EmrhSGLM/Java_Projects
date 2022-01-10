@@ -1,4 +1,4 @@
-package javaProjects.OgrenciIsleri;
+package OgrenciIsleri;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,4 +1,4 @@
-package javaProjects.hastaneOtomasyon;
+package hastaneOtomasyon;
 
 public class Durum {
 	

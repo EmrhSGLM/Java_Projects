@@ -1,4 +1,4 @@
-package javaProjects.geometrikHesaplama;
+package geometrikHesaplama;
 
 /* 1-asagidaki hiyarasiye gore class creat ediniz...
 

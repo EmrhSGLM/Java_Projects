@@ -1,4 +1,4 @@
-package javaProjects.kitapYonetimi;
+package kitapYonetimi;
 
 public class Kitap {
 
